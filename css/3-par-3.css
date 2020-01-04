@@ -1,0 +1,63 @@
+body{
+  background: #02111B;
+}
+
+h1{
+  padding: 5px 5px;
+  text-align: center;
+  color: white;
+}
+
+.Menu{
+  text-align: center;
+}
+
+.Menu a,p{
+  background-color: #7FC6A4;
+  text-decoration: none;
+  color: black;
+  width:100px;
+  padding: 10px 10px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.jeu{
+  text-align: center;
+}
+.ligne-1,.ligne-2,.ligne-3{
+  display: block;
+}
+.case{
+  background-color: #7FC6A4;
+  font-size: 60px;
+  color: #55505C;
+  width:100px;
+  padding: 5px 5px;
+  margin: 2px 2px;
+  display: inline-block;
+}
+
+.case:hover{
+  background-color: #FAF33E;
+  box-shadow: 0 0 10px #FAF33E, 0 0 40px #FAF33E, 0 0 80px #FAF33E;
+}
+
+.Menu a:hover{
+  background-color: #FAF33E;
+  box-shadow: 0 0 10px #FAF33E, 0 0 40px #FAF33E, 0 0 80px #FAF33E;
+}
+
+.Menu p:hover{
+  background-color: #FAF33E;
+  box-shadow: 0 0 10px #FAF33E, 0 0 40px #FAF33E, 0 0 80px #FAF33E;
+}
+
+.case-9{
+  opacity: 0;
+}
+
+.case-9:hover{
+  background-color: #02111B;
+  box-shadow: 0 0 10px #02111B, 0 0 40px #02111B, 0 0 80px #02111B;
+}
